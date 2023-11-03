@@ -1,5 +1,5 @@
 function indicador(texto) {
-  if (texto > 0) { document.write("No ingresaste un texto valido")
+  if (texto > 0) { alert("No ingresaste un texto valido")
   } else {
     if (texto == texto.toLowerCase()) {
       document.write("El texto esta formado solo por MINUSCULAS");
