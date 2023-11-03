@@ -6,6 +6,6 @@ function indicador(numero) {
   } else document.write("No ingresaste un numero valido");
 }
 const numeroIngresado = parseFloat(
-  prompt("Ingrese un numero para determinar si es par o impar")
+  prompt("Ingrese un numero")
 );
 indicador(numeroIngresado);
