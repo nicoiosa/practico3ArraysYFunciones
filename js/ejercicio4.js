@@ -5,7 +5,4 @@ function indicador(numero) {
     } else document.write("<p>El numero ingresado es IMPAR</p>");
   } else alert("No ingresaste un numero valido");
 }
-const numeroIngresado = parseFloat(
-  prompt("Ingrese un numero")
-);
-indicador(numeroIngresado);
+indicador(parseFloat(prompt("Ingrese un numero")));
