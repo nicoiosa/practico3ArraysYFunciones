@@ -23,6 +23,4 @@ for (i = 0; i < 11; i++) {
   <td>${apariciones[i]}</td>
   </tr>`);
 }
-document.write(`
-  </table>
-  </tbody>`);
+document.write(`</tbody></table>`);
